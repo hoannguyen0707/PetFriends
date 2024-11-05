@@ -1,0 +1,26 @@
+###
+GET http://localhost:5220/pets/
+
+
+### 
+GET http://localhost:5220/pets/6
+
+
+###
+POST http://localhost:5220/pets/
+Content-Type: application/json
+
+{
+    "Name":"Hamster",
+    "Description":"Small, nocturnal, and great for children"
+}
+
+
+###
+PUT http://localhost:5220/pets/6
+Content-Type: application/json
+
+{
+    "Name":"Hamster UPD",
+    "Description":"Small, nocturnal, and great for children"
+}
